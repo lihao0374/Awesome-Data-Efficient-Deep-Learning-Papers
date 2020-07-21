@@ -1,7 +1,9 @@
 # Awesome Data-Efficient Deep Learning Papers 
 
 <a href="#1">Semi-supervised Learning</a>
+
 <a href="#2">Few-shot Learning</a>
+
 <a href="#3">Data Augmentation</a>
 
 
