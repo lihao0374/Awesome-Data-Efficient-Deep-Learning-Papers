@@ -6,6 +6,8 @@
 
 <a href="#3">Data Augmentation</a>
 
+<a href="#3">Self-supervised Learning</a>
+
 <a name="1"></a>
 ## Semi-supervised Learning 
 -  [**Semi-supervised Learning with a Teacher-student Network for Generalized Attribute Prediction**](https://arxiv.org/abs/2007.09162) (ECCV2020)
@@ -29,3 +31,10 @@
 -  [**OnlineAugment: Online Data Augmentation with Less Domain Knowledge**](https://arxiv.org/abs/2007.09271) (ECCV2020)
 
     **Abstract :** Data augmentation is one of the most important tools in training modern deep neural networks. Recently, great advances have been made in searching for optimal augmentation policies in the image classification domain. However, two key points related to data augmentation remain uncovered by the current methods. First is that most if not all modern augmentation search methods are offline and learning policies are isolated from their usage. The learned policies are mostly constant throughout the training process and are not adapted to the current training model state. Second, the policies rely on class-preserving image processing functions. Hence applying current offline methods to new tasks may require domain knowledge to specify such kind of operations. In this work, we offer an orthogonal online data augmentation scheme together with three new augmentation networks, co-trained with the target learning task. It is both more efficient, in the sense that it does not require expensive offline training when entering a new domain, and more adaptive as it adapts to the learner state. Our augmentation networks require less domain knowledge and are easily applicable to new tasks. Extensive experiments demonstrate that the proposed scheme alone performs on par with the state-of-the-art offline data augmentation methods, as well as improving upon the state-of-the-art in combination with those methods.
+
+<a name="4"></a>
+## Self-supverised Learning
+
+-  [**PointContrast: Unsupervised Pre-training for 3D Point Cloud Understanding**](https://arxiv.org/abs/2007.10985) (ECCV2020)
+
+    **Abstract :** Arguably one of the top success stories of deep learning is transfer learning. The finding that pre-training a network on a rich source set (eg., ImageNet) can help boost performance once fine-tuned on a usually much smaller target set, has been instrumental to many applications in language and vision. Yet, very little is known about its usefulness in 3D point cloud understanding. We see this as an opportunity considering the effort required for annotating data in 3D. In this work, we aim at facilitating research on 3D representation learning. Different from previous works, we focus on high-level scene understanding tasks. To this end, we select a suite of diverse datasets and tasks to measure the effect of unsupervised pre-training on a large source set of 3D scenes. Our findings are extremely encouraging: using a unified triplet of architecture, source dataset, and contrastive loss for pre-training, we achieve improvement over recent best results in segmentation and detection across 6 different benchmarks for indoor and outdoor, real and synthetic datasets -- demonstrating that the learned representation can generalize across domains. Furthermore, the improvement was similar to supervised pre-training, suggesting that future efforts should favor scaling data collection over more detailed annotation. We hope these findings will encourage more research on unsupervised pretext task design for 3D deep learning.
